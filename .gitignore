@@ -20,6 +20,7 @@ doc/
 .secret
 secret_token.rb
 /public
+secrets.yml
 
 # Ignore application configuration
 /config/application.yml
