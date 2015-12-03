@@ -32,7 +32,7 @@ body {
 }
 .CV-page a {
   color: rgba(34, 34, 34, 0.25);
-  text-decoration: underline;
+  text-decoration: none;
 }
 .CV-page a span {
   color: #222;
@@ -70,12 +70,12 @@ body {
 .CV-primaryHeading-name {
   display: block;
   margin-bottom: 0.1em;
-  font-size: 1.8em;
+  font-size: 50px;
   line-height: 0.9;
 }
 .CV-primaryHeading-position {
   display: block;
-  font-size: 1em;
+  font-size: 30px;
   line-height: 1;
   color: #00aef0;
   font-style: italic;
@@ -84,6 +84,7 @@ body {
   position: relative;
   margin: 2em 0 0;
   text-transform: uppercase;
+  
 }
 .CV-secondaryHeading:before {
   content: "";
@@ -105,7 +106,7 @@ body {
   padding: 0.5em 1.5em;
   border-radius: 1em;
   line-height: 1.2;
-  font-size: 0.9em;
+  font-size: 15px;
   text-decoration: none;
 }
 /* if SVG supported */
@@ -279,9 +280,10 @@ body {
   font-style: italic;
   text-transform: uppercase;
   padding-right: 5px;
+  font-size: 20px;
 }
 .CV-timeline-heading-location {
-  font-size: 0.9em;
+  font-size: 20px;
 }
 .CV-timeline-heading-duration {
   display: block;
@@ -401,5 +403,13 @@ body {
     height: 28px;
     margin-top: -11px;
     background-size: 22px;
+  }
+}
+
+.CV-skills-group-list {
+  .label {
+    margin: 3px;
+    float: left;
+    padding: 6px;
   }
 }
