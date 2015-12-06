@@ -45,6 +45,7 @@ gem 'high_voltage'
 gem 'puma'
 gem 'simple_form'
 gem 'therubyracer', :platform=>:ruby
+gem 'figaro'
 
 group :development do
   gem 'better_errors'
